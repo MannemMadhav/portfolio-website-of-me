@@ -1,0 +1,108 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general font settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: hsl(0, 14%, 78%);
+    color: hwb(0 7% 90%);
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: hwb(0 84% 13%);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: hwb(0 4% 12%);
+}
+
+/* Section styling */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.home {
+    background-color: hsl(0, 17%, 2%);
+    color: #fff;
+}
+
+.about {
+    background-color: #fff;
+}
+
+.portfolio {
+    background-color: #f9f9f9;
+}
+
+.contact {
+    background-color: #fff;
+}
+
+/* Heading styles */
+h1, h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.contact ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: hsl(0, 93%, 44%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
